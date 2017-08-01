@@ -1,0 +1,62 @@
+---
+---
+
+$col-nav-bg: #38364a;
+$col-nav-hl: #767397;
+$col-nav-act: #5f5c7c;
+$col-nav-text: white;
+$col-trans-hover: rgba(120,120,120,0.3);
+$col-graphics: #979797;
+
+$nav-opacity: 1;
+$nav-font-size: 16px;
+$nav-side-spacing: 45px;
+$box-shadow: 0px 0px 5px 0px gray;
+$border-radius: 5px;
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i');
+
+$font-nav: Source Sans Pro;
+
+
+body {
+  margin: 0px;
+}
+body[lj-type="stage"] {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+nav {
+  background-color: $col-nav-bg;
+  box-shadow: $box-shadow;
+  opacity: $nav-opacity;
+  color: $col-nav-text;
+  font-family: $font-nav;
+  font-size: $nav-font-size;
+
+  .nav-item {
+    text-transform: uppercase;
+  }
+  .nav-item:hover {
+    background-color: $col-nav-hl;
+  }
+  .nav-item.active {
+    background-color: $col-nav-act;
+  }
+  a {
+    color: $col-nav-text;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: inherit;
+  }
+}
+@import "slider";
+@import "sidemenuleftfloating";
+@import "header";
+@import "information";
+@import "footer";

@@ -1,0 +1,78 @@
+.header-menu {
+  background: url("/assets/img/phato-layerjs.jpg") no-repeat center/cover;
+  width: 100%;
+  height: 560px; }
+  .header-menu h2 {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 36px;
+    line-height: 2.22;
+    letter-spacing: 2.4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 196px;
+    margin-bottom: 43px; }
+    .header-menu h2 .ljs-logo-white {
+      width: 64px;
+      height: 64px;
+      margin-right: 14px; }
+  .header-menu h1 {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 2.7px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 242px;
+    margin-left: 242px;
+    margin-bottom: 17px; }
+  .header-menu p {
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 33px; }
+  .header-menu .cta-bg {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 26px; }
+  .header-menu .header-input-left {
+    text-align: center; }
+  .header-menu .header-input-right {
+    text-align: center; }
+  .header-menu #name {
+    width: 280px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color: #999999;
+    border: rgba(0, 0, 0, 0.5);
+    padding: 6px 10px 6px 10px;
+    outline: none; }
+  .header-menu #mail {
+    width: 280px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color: #999999;
+    border: rgba(0, 0, 0, 0.5);
+    padding: 6px 10px 6px 10px;
+    outline: none;
+    margin-right: 15px; }
+  .header-menu .button-header-menu {
+    border-radius: 5px;
+    background-color: #709f7b;
+    width: 180px;
+    height: 48px;
+    border: none;
+    outline: none;
+    margin-right: 110px; }
+
+/*# sourceMappingURL=header.css.map */

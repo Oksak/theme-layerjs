@@ -1,0 +1,10 @@
+<nav id="sidemenu" lj-type="frame" startPosition="left" lj-fit-to="responsive-height" lj-transition="right" lj-transition="right">
+  <a href="#mainmenu" class="close">╳</a>
+  <ul class="nav-list">
+    {% for item in site.data.sidemenu %}
+    <li class="nav-item">
+      <a href="{{item.href}}">{{item.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

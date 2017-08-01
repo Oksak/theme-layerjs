@@ -1,0 +1,138 @@
+.footer-menu{
+  text-align: center;
+  height:40px;
+  background-color: #38364b;
+  ul {
+    display: inline-flex;
+    li{
+      margin-right: 60px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 600;
+      line-height: 2.86;
+      letter-spacing: 0.8px;
+      color: #ffffff;
+      list-style-type: none;
+      font-family:'Source Sans Pro', sans-serif;
+      width: 160px;
+      text-transform: uppercase;
+      a{
+        outline: none;
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.footer-content{
+  height: 120px;
+  background-color: #201e33;
+}
+.git-jobs-licence{
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 33px;
+    margin-left: 80px;
+    li{
+      font-size: 14px;
+      color: #ffffff;
+      font-family:'Source Sans Pro', sans-serif;
+      margin-left: 60px;
+
+      a{
+        outline: none;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.contribute-document{
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 33px;
+    margin-left: 45px;
+    li{
+      font-size: 14px;
+      color: #ffffff;
+      font-family:'Source Sans Pro', sans-serif;
+      cursor: pointer;
+      a{
+        outline: none;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.center-footer-content{
+  text-align: center;
+  p{
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 14px;
+    font-family:'Source Sans Pro', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 19px;
+  }
+}
+.developers-layerjs{
+  color: white;
+}
+.button-footer{
+  width: 120px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 2;
+  color: white;
+  background-color: #201e33;
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.45);
+  outline: none;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+.right-footer-content {
+  text-align: center;
+  .follow-us{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.45);
+    font-family:'Source Sans Pro', sans-serif;
+    margin-right: 163px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .layerjs{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.45);
+    font-family:'Source Sans Pro', sans-serif;
+    margin-left: 190px;
+  }
+  ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: #8F8E99;
+    font-size: 24px;
+    cursor: pointer;
+    li {
+      margin-right: 20px;
+      &:hover > .fa-facebook-square {
+        color: white;
+      }
+      &:hover > .fa-twitter {
+        color: white;
+      }
+      &:hover > .fa-google-plus{
+        color: white;
+      }
+      &:hover > .fa-skype{
+        color: white;
+      }
+      &:hover > .fa-linkedin-square{
+        color: white;
+      }
+      &:hover > .fa-instagram{
+        color: white;
+      }
+    }
+  }
+}

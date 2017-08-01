@@ -1,0 +1,37 @@
+
+.sidemenuleftfloating {
+  #mainmenu {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  #sidemenu {
+    width: 300px;
+    max-width: 100vw;
+    height: 100vh;
+
+    .close {
+      margin: 10px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+    .nav-list {
+      margin-top: 40px;
+      margin-left: 10px;
+      list-style: none;
+
+      .nav-item {
+        height: $nav-side-spacing;
+        line-height: $nav-side-spacing;
+        padding-left: 20px;
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
+      }
+    }
+  }
+}
